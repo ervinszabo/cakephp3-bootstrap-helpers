@@ -4,6 +4,12 @@
     "keywords": ["CakePHP", "Bootstrap"],
     "license": "Apache",
     "type": "cakephp-plugin",
+    "repositories": [  
+        {  
+            "type": "vcs",  
+            "url": "https://github.com/ervinszabo/cakephp-bootstrap-helpers"  
+        }  
+    ],  
     "require": {
         "cakephp/cakephp": ">=3.2.3"
     },
