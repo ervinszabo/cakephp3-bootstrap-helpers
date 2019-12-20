@@ -81,6 +81,9 @@ class BootstrapFormHelper extends FormHelper {
             'radioContainer' => '{{h_radioContainer_start}}<div class="form-group">{{content}}</div>{{h_radioContainer_end}}',
             'textarea' => '<textarea name="{{name}}" class="form-control{{attrs.class}}" {{attrs}}>{{value}}</textarea>',
             'submitContainer' => '<div class="form-group">{{h_submitContainer_start}}{{content}}{{h_submitContainer_end}}</div>',
+             //Confirm javascript template for postLink()
+            'confirmJs' => '{{confirm}}',
+
         ],
         'templateClass' => 'Bootstrap\View\BootstrapStringTemplate',
         'buttons' => [
